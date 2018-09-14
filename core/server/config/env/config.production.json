@@ -17,5 +17,16 @@
             "enabled": true
         },
         "transports": ["file", "stdout"]
-    }
+    },
+    "mail": {
+        "transport": "SMTP",
+        "options": {
+            "service": "Mailgun",
+            "auth": {
+                "user": "",
+                "pass": ""
+            }
+        },
+        "from": "'The Book Babe' <auto@thebookbabe.ml>",
+    },
 }
